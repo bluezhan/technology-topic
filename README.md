@@ -1,7 +1,7 @@
 
+![](https://github.com/bluezhan/technology-topic/raw/master/image/logo.png)
 
-
-## 技术专题
+# 技术专题
 
 而Node.js的出现促进了栈的融合，使得前端工程师与后端越来越近，这样一来，一些前端工程师找到了突破点，慢慢可以部署和发布整个应用的能力。
 
@@ -16,7 +16,7 @@
 Don't Panic! 不忘初心，不畏艰险，心有期许，彩虹似光。
 
 
-#### 《每个前端程序员都有一个梦》
+## 《每个前端程序员都有一个梦》
 
 Web标准  
 W3C基本知识通读（w3school） 
@@ -50,7 +50,7 @@ V8源码
   
 学的越多，往一个方向拼命跑就行了。  
   
-#### 周边杂铺店
+## 周边杂铺店
 
 - 把README.md用好玩好
 http://www.tuicool.com/articles/zIJrEjn
@@ -76,7 +76,7 @@ http://www.tuicool.com/articles/zIJrEjn
 国内最大的创新者社区  
   
   
-#### 借鉴借鉴
+## 借鉴借鉴
 
 http://www.jianshu.com/p/4ce1708ea072   
 https://zhuanlan.zhihu.com/p/27149903  
