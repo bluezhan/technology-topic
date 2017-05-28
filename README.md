@@ -18,75 +18,74 @@ Don't Panic! 不忘初心，不畏艰险，心有期许，彩虹似光。
 
 #### 《每个前端程序员都有一个梦》
 
-Web标准
-W3C基本知识通读（w3school）
-布局
-兼容
-H5（HTML5+CSS3）新媒体、推广，国内在微信推的比较多
-动画+Canvas
-读源码（jQuery+underscore+vue...）
-浏览器URL机制
-原生JavaScript写法和实现，有哪些类似库
-JS算法和DOM操作
-代码设计模式
-安全和跨越（数据）
-this new 对象 闭包 内存
-MVC MVVM MV*
-Node生态
-V8源码
-前端工具（辅助工具、代码工具）欲善其事，先利其器
-开发流程和部署
-移动端开发
-修BUG调试
-性能处理
-前端框架和库
-脑洞要大开
-数据库数据结构
-读书（JS、安全、CSS、框架、Node）
-看国外网站（去翻译技术文章）
-社区
-大公司的代码
-（管理和计算机知识）
-
-学的越多，往一个方向拼命跑就行了。
-
+Web标准  
+W3C基本知识通读（w3school） 
+布局  
+兼容  
+H5（HTML5+CSS3）新媒体、推广，国内在微信推的比较多  
+动画+Canvas  
+读源码（jQuery+underscore+vue...）  
+浏览器URL机制  
+原生JavaScript写法和实现，有哪些类似库  
+JS算法和DOM操作  
+代码设计模式  
+安全和跨越（数据）  
+this new 对象 闭包 内存  
+MVC MVVM MVX  
+Node生态    
+V8源码  
+前端工具（辅助工具、代码工具）欲善其事，先利其器    
+开发流程和部署  
+移动端开发  
+修BUG调试  
+性能处理  
+前端框架和库  
+脑洞要大开  
+数据库数据结构  
+读书（JS、安全、CSS、框架、Node）  
+看国外网站（去翻译技术文章）  
+社区  
+大公司的代码  
+（管理和计算机知识）  
+  
+学的越多，往一个方向拼命跑就行了。  
+  
 #### 周边杂铺店
 
 - 把README.md用好玩好
 http://www.tuicool.com/articles/zIJrEjn
-
+  
 - 好的网站素材
-
+  
 - 设计稿和图片网站
-
+  
 花瓣网
-
-- 产品理念和产品文章
-
-人人都是产品经理
-人人都是产品经理致力为产品新人、产品经理等广大产品爱好者打造一个良好的学习交流平台。
-
-36氪
-互联网创业服务提供商
-
-钛媒体
-特点信息交流信息融合
-
-极客公园
-国内最大的创新者社区
-
-
+  
+产品理念和产品文章
+  
+人人都是产品经理  
+人人都是产品经理致力为产品新人、产品经理等广大产品爱好者打造一个良好的学习交流平台。  
+  
+36氪  
+互联网创业服务提供商  
+  
+钛媒体  
+特点信息交流信息融合  
+  
+极客公园  
+国内最大的创新者社区  
+  
+  
 #### 借鉴借鉴
 
-http://www.jianshu.com/p/4ce1708ea072
-https://zhuanlan.zhihu.com/p/27149903
-https://github.com/iamjoel/front-end-plugins
-http://html5ify.com/fks/fks_chart/
-https://github.com/dwqs/blog
-http://collect.w3ctrain.com/
-https://zhuanlan.zhihu.com/p/22229868
-====
-https://www.zhihu.com/question/31060635
-https://www.zhihu.com/question/21550655
-https://www.zhihu.com/question/21011591
+http://www.jianshu.com/p/4ce1708ea072   
+https://zhuanlan.zhihu.com/p/27149903  
+https://github.com/iamjoel/front-end-plugins  
+http://html5ify.com/fks/fks_chart/  
+https://github.com/dwqs/blog  
+http://collect.w3ctrain.com/  
+https://zhuanlan.zhihu.com/p/22229868  
+https://www.zhihu.com/question/31060635  
+https://www.zhihu.com/question/21550655  
+https://www.zhihu.com/question/21011591  
 
