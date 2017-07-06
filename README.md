@@ -19,6 +19,7 @@
 
 Don't Panic! 不忘初心，不畏艰险，心有期许，彩虹似光。
 
+《放手去做——管理3.0实战手册》
 
 ### 《每个前端程序员都有一个梦》
 
@@ -56,7 +57,22 @@ Don't Panic! 不忘初心，不畏艰险，心有期许，彩虹似光。
 * （管理和计算机知识）  
   
 学得越多越到一定程度，就往一个方向拼命跑就行了。  
-扎实的 JavaScript / HTML / CSS 基本功。这是前置条件。  
+扎实的 JavaScript / HTML / CSS 基本功。这是前置条件。 
+
+http://caibaojian.com/ali-mianshi.html 
+
+### 一步一步来
+
+- JS的数据类型
+原始类型: String Number Boolean Null undefined 
+对象类型: Array Object Function Date ... 
+
+http://www.cnblogs.com/haoxi/p/6935092.html
+
+
+
+读JavaScript书籍
+JavaScript高级编程
 
 ### 周边杂铺店
 
