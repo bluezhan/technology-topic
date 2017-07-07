@@ -64,7 +64,7 @@ http://caibaojian.com/ali-mianshi.html
 ### 一步一步来
 
 - JS的数据类型
-原始类型: String Number Boolean Null undefined 
+原始类型: String Number Boolean Null undefined Symbols(es6)
 对象类型: Array Object Function Date ... 
 
 http://www.cnblogs.com/haoxi/p/6935092.html
