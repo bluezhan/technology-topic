@@ -39,3 +39,14 @@ http://www.jianshu.com/c/47c604fe47af
 3、《TCP/IP协议详解》，Lawrence Berkeley（横向进阶篇）
 
 http://www.cnblogs.com/hr2014/p/4992495.html
+
+
+#### 资料
+
+掌握 HTTP 缓存——从请求到响应过程的一切（上）https://segmentfault.com/a/1190000008538177
+掌握 HTTP 缓存——从请求到响应过程的一切（下）https://segmentfault.com/a/1190000008588755
+
+
+一文读懂 HTTP/2 特性 http://hao.caibaojian.com/35989.html
+
+一个故事讲完https https://segmentfault.com/p/1210000010374149/read
