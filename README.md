@@ -67,14 +67,14 @@ Don't Panic! 不忘初心，不畏艰险，心有期许，彩虹似光。
 
 ### 一步一步来
 
-- JS的数据类型
-原始类型: String Number Boolean Null undefined Symbols(es6)
-对象类型: Array Object Function Date ... 
+- JS的数据类型    
+原始类型: String Number Boolean Null undefined Symbols(es6)   
+对象类型: Array Object Function Date ...   
 
 JavaScript的类型 http://www.cnblogs.com/haoxi/p/6935092.html
 
 读JavaScript书籍:    
-《JavaScript高级编程》 
+《JavaScript高级编程》   
 《JavaScript Dom编程艺术》  
 《JavaScript高级程序设计》  
 《JavaScript权威指南》  
@@ -107,7 +107,7 @@ http://www.tuicool.com/articles/zIJrEjn
 ### 关注平台
 
 github、知乎、简书、掘金、sf.gg、博客园  
-众成翻译（zcfy.cc）  
+众成翻译（zcfy.cc）    
 medium、Codrops、CSSWizardry、Smashing Magazine   
 SmaCSS、CSS-Tricks、TGideas、Frontend Masters 
 Stack Overflow  
@@ -123,7 +123,7 @@ Stack Overflow
 [nodeweekly](nodeweekly.com)、[webopsweekly](webopsweekly.com)、[html5weekly](html5weekly.com)、[cssweekly](cssweekly.com)、[javascriptweekly](javascriptweekly.com)、[mobilewebweekly](mobilewebweekly.com)、[frontendfoc](frontendfoc.us)  
 
 [前端周刊](https://zhuanlan.zhihu.com/feweekly)  
-[橙汁绿茶-前端日报](https://segmentfault.com/blog/timlee) 
+[橙汁绿茶-前端日报](https://segmentfault.com/blog/timlee)    
 [某熊的全栈之路](https://zhuanlan.zhihu.com/wxyyxc1992)  
 [掘金官方-收藏夹](http://www.jianshu.com/u/5fc9b6410f4f)  
 [前端联盟官网](http://jsfront.org/month/2017/201704.html)  

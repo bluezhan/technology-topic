@@ -15,7 +15,7 @@
   - [V8引擎为啥而生](/v8)
   - [关于Loading和数据交互的优化方案](/loading-data)
   - [我在2017年离职之后](/dimission)
-  - [那些我在重构网站的路上](/web-go)
+  - [那些我在重构网站的路上](/web-refactor)
   - [JavaScript算法学习之旅](/js-arithmetic)
   - [前端单词一览而尽](/web-word)
   - [Swipe插件引发的血案](/swipe-murder)
