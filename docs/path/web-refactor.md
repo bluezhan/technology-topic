@@ -37,6 +37,8 @@ HTML 模块代码
 
 性能优化 图片处理、控制台、文件加载
 
+子元素scroll父元素容器不跟随滚动JS实现 http://web.jobbole.com/84625
+
 ### 参考
 
 [自适应网页设计（Responsive Web Design）](http://www.ruanyifeng.com/blog/2012/05/responsive_web_design.html)  

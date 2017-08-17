@@ -1,6 +1,13 @@
 
 ![](https://github.com/bluezhan/technology-topic/raw/master/image/logo.png)
 
+<p align="center">
+  <img src="https://img.shields.io/badge/language-HTML--CSS--JavaScript-green.svg">
+  <img src="https://img.shields.io/badge/web-togo-orange.svg">
+  <img src="https://img.shields.io/badge/license-MIT-ccc.svg">
+  <img src="https://img.shields.io/badge/$%^*-better-ff69b4.svg">
+</p>
+
 # Web前端技术专题
 
 大家都在感叹前端变化太快，要学的太多了。不过除了快之外，其实也很杂。
@@ -65,13 +72,7 @@ Don't Panic! 不忘初心，不畏艰险，心有期许，彩虹似光。
 
 阿里航旅事业部的前端开发面试题 http://caibaojian.com/ali-mianshi.html 
 
-### 一步一步来
-
-- JS的数据类型    
-原始类型: String Number Boolean Null undefined Symbols(es6)   
-对象类型: Array Object Function Date ...   
-
-JavaScript的类型 http://www.cnblogs.com/haoxi/p/6935092.html
+### 一步一书来
 
 读JavaScript书籍:    
 《JavaScript高级编程》   
@@ -84,6 +85,7 @@ JavaScript的类型 http://www.cnblogs.com/haoxi/p/6935092.html
 《JavaScript设计模式》  
 
 前端书籍 https://github.com/jobbole/awesome-web-dev-books
+如果有人让你推荐前端技术书，请让他看这个列表 http://web.jobbole.com/86734/
 
 ### 周边杂铺店
 
@@ -91,7 +93,8 @@ JavaScript的类型 http://www.cnblogs.com/haoxi/p/6935092.html
 http://www.tuicool.com/articles/zIJrEjn  
 - 好的网站素材  
 - 设计稿和图片网站
-花瓣网  
+- 花瓣网 .
+- 面试题 
 
 《放手去做——管理3.0实战手册》
   
@@ -106,7 +109,7 @@ http://www.tuicool.com/articles/zIJrEjn
 
 ### 关注平台
 
-github、知乎、简书、掘金、sf.gg、博客园  
+github、知乎、简书、掘金、sf.gg、博客园、伯乐在线  
 众成翻译（zcfy.cc）    
 medium、Codrops、CSSWizardry、Smashing Magazine   
 SmaCSS、CSS-Tricks、TGideas、Frontend Masters 
@@ -118,9 +121,10 @@ Stack Overflow
 
 ### 周刊&收藏夹
  
-阿里云前端周刊、掘金精华周报、极乐技术周报、奇舞周刊   
+阿里云前端周刊、掘金精华周报、极乐技术周报、奇舞周刊、百度外卖     
 
-[nodeweekly](nodeweekly.com)、[webopsweekly](webopsweekly.com)、[html5weekly](html5weekly.com)、[cssweekly](cssweekly.com)、[javascriptweekly](javascriptweekly.com)、[mobilewebweekly](mobilewebweekly.com)、[frontendfoc](frontendfoc.us)  
+[nodeweekly](nodeweekly.com)、[webopsweekly](webopsweekly.com)、[html5weekly](html5weekly.com)   
+[cssweekly](cssweekly.com)、[javascriptweekly](javascriptweekly.com)、[mobilewebweekly](mobilewebweekly.com)、[frontendfoc](frontendfoc.us)  
 
 [前端周刊](https://zhuanlan.zhihu.com/feweekly)  
 [橙汁绿茶-前端日报](https://segmentfault.com/blog/timlee)    
