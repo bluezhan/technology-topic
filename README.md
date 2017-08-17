@@ -10,19 +10,19 @@
 
 # Web前端技术专题
 
-大家都在感叹前端变化太快，要学的太多了。不过除了快之外，其实也很杂。
+大家都在感叹前端变化太快，要学的太多了。不过除了快之外，其实也很杂。   
 不管咋样，前端每一次发展都有前因后果。
 
 而Node.js的出现促进了栈的融合，使得前端工程师拥有后端能力去事情，这样一来，一些前端工程师找到了突破点，慢慢可以部署和发布整个应用的能力。
 
 面对错综复杂的众多新的前端技术，不要盲目都试图去学会，对这些技术做一些了解，知道各个技术的优缺点，可应用的场景和定位就OK了。然后，针对所在工作环境中用到或未来可能用到的深入学习。待所需的技术掌握好，再去考虑研究其他的新技术以及如何运用新技术来把当前工作做得更完美。
 
-打好基础，记录和整理自己的知识网络。
-最重要的是：实践。
-前端本身问题：变化快、杂、很飘逸，工具和环境在慢慢健全中。 
-前端需要和三端打交道：设计、产品、后端。
+打好基础，记录和整理自己的知识网络。  
+最重要的是：实践。  
+前端本身问题：变化快、杂、很飘逸，工具和环境在慢慢健全中。   
+前端需要和三端打交道：设计、产品、后端。  
 
-不学底层，永远不会成为大师。
+不学底层，永远不会成为大师。  
 
 Don't Panic! 不忘初心，不畏艰险，心有期许，彩虹似光。
 
@@ -93,7 +93,7 @@ Don't Panic! 不忘初心，不畏艰险，心有期许，彩虹似光。
 http://www.tuicool.com/articles/zIJrEjn  
 - 好的网站素材  
 - 设计稿和图片网站
-- 花瓣网 .
+- 花瓣网
 - 面试题 
 
 《放手去做——管理3.0实战手册》
@@ -123,8 +123,9 @@ Stack Overflow
  
 阿里云前端周刊、掘金精华周报、极乐技术周报、奇舞周刊、百度外卖     
 
-[nodeweekly](nodeweekly.com)、[webopsweekly](webopsweekly.com)、[html5weekly](html5weekly.com)   
-[cssweekly](cssweekly.com)、[javascriptweekly](javascriptweekly.com)、[mobilewebweekly](mobilewebweekly.com)、[frontendfoc](frontendfoc.us)  
+[nodeweekly](nodeweekly.com)、[webopsweekly](webopsweekly.com)  
+[html5weekly](html5weekly.com)、[cssweekly](cssweekly.com)  
+[javascriptweekly](javascriptweekly.com)、[mobilewebweekly](mobilewebweekly.com)、[frontendfoc](frontendfoc.us)  
 
 [前端周刊](https://zhuanlan.zhihu.com/feweekly)  
 [橙汁绿茶-前端日报](https://segmentfault.com/blog/timlee)    
