@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/language-HTML--CSS--JavaScript-green.svg">
   <img src="https://img.shields.io/badge/web-togo-orange.svg">
   <img src="https://img.shields.io/badge/license-MIT-ccc.svg">
-  <img src="https://img.shields.io/badge/$%^*-better-ff69b4.svg">
+  <img src="https://img.shields.io/badge/Don't-Panic-ff69b4.svg">
 </p>
 
 # Web前端技术专题
