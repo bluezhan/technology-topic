@@ -26,7 +26,7 @@
 
 Don't Panic! 不忘初心，不畏艰险，心有期许，彩虹似光。
 
-### 《每个前端程序员都有一个梦》
+## 《每个前端程序员都有一个梦》
 
 >::: 网站地址：[点我就是了](http://bluezhan.me/technology-topic/#/)  
 
@@ -72,7 +72,7 @@ Don't Panic! 不忘初心，不畏艰险，心有期许，彩虹似光。
 
 阿里航旅事业部的前端开发面试题 http://caibaojian.com/ali-mianshi.html 
 
-### 一步一书来
+## 一步一书来
 
 读JavaScript书籍:    
 《JavaScript高级编程》   
@@ -87,7 +87,7 @@ Don't Panic! 不忘初心，不畏艰险，心有期许，彩虹似光。
 前端书籍 https://github.com/jobbole/awesome-web-dev-books
 如果有人让你推荐前端技术书，请让他看这个列表 http://web.jobbole.com/86734/
 
-### 周边杂铺店
+## 周边杂铺店
 
 - 把README.md用好玩好
 http://www.tuicool.com/articles/zIJrEjn  
@@ -107,37 +107,40 @@ http://www.tuicool.com/articles/zIJrEjn
 | 钛媒体           | 特点信息交流信息融合      | 
 | 极客公园         | 国内最大的创新者社区      | 
 
-### 关注平台
+## 关注平台
 
-github、知乎、简书、掘金、sf.gg、博客园、伯乐在线  
-众成翻译（zcfy.cc）    
+github、知乎、简书、掘金、sf.gg、博客园、伯乐在线   
+众成翻译（zcfy.cc）  
 medium、Codrops、CSSWizardry、Smashing Magazine   
-SmaCSS、CSS-Tricks、TGideas、Frontend Masters 
-Stack Overflow  
+SmaCSS、CSS-Tricks、TGideas、Frontend Masters   
+Stack Overflow、hackernews、hackernoon    
 等等...  
+
+[js-the-right-way](http://jstherightway.org/)  
 
 [国内外有哪些好的前端实战网站](https://www.zhihu.com/question/21034316)  
 [国外的前端开发社区有哪些](https://segmentfault.com/q/1010000002899648)  
-[有哪些好的前端社区？](https://www.zhihu.com/question/39503897)  
+[有哪些好的前端社区？](https://www.zhihu.com/question/39503897)    
 [如何帮助前端新人入门和提高？](https://www.zhihu.com/question/19637373)
 
-### 周刊&收藏夹
+## 周刊&收藏夹
  
 阿里云前端周刊、掘金精华周报、极乐技术周报、奇舞周刊、百度外卖     
 
-[nodeweekly](nodeweekly.com)、[webopsweekly](webopsweekly.com)  
-[html5weekly](html5weekly.com)、[cssweekly](cssweekly.com)  
+[nodeweekly](nodeweekly.com)、[webopsweekly](webopsweekly.com)    
+[html5weekly](html5weekly.com)、[cssweekly](cssweekly.com)    
 [javascriptweekly](javascriptweekly.com)、[mobilewebweekly](mobilewebweekly.com)、[frontendfoc](frontendfoc.us)  
 
-[FEX 技术周刊](http://fex.baidu.com/weekly/)     
+[码农周刊](http://weekly.manong.io/)  
+[FEX 技术周刊](http://fex.baidu.com/weekly/)   
 [前端周刊](https://zhuanlan.zhihu.com/feweekly)  
-[橙汁绿茶-前端日报](https://segmentfault.com/blog/timlee)    
+[橙汁绿茶-前端日报](https://segmentfault.com/blog/timlee)  
 [某熊的全栈之路](https://zhuanlan.zhihu.com/wxyyxc1992)  
 [掘金官方-收藏夹](http://www.jianshu.com/u/5fc9b6410f4f)  
 [前端联盟官网](http://jsfront.org/month/2017/201704.html)  
 [前端资源分享](https://segmentfault.com/blog/tobyshare)
 
-### 保持该有的姿势
+## 保持该有的姿势
 
 好奇心和清晰逻辑  
 国内外技术网站  
@@ -155,7 +158,7 @@ Stack Overflow
 **博学之，审问之，慎思之，明辨之，笃行之。**
  
 
-### 参考借鉴
+## 参考借鉴
 
 http://www.jianshu.com/p/4ce1708ea072   
 https://zhuanlan.zhihu.com/p/27149903  
