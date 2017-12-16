@@ -84,7 +84,7 @@ Don't Panic! 不忘初心，不畏艰险，心有期许，彩虹似光。
 《JavaScript语言精粹》   
 《JavaScript设计模式》  
 
-前端书籍 https://github.com/jobbole/awesome-web-dev-books
+前端书籍 https://github.com/jobbole/awesome-web-dev-books  
 如果有人让你推荐前端技术书，请让他看这个列表 http://web.jobbole.com/86734/
 
 ## 周边杂铺店

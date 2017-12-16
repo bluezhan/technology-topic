@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>冒泡排序耗时-线表图</title>
+	<link rel="stylesheet" type="text/css" href="libs/c3.css">
+</head>
+<body>
+
+<div class='chart'>
+	<div id='chart'></div>
+</div>
+
+
+<script type="text/javascript" src="libs/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="libs/d3-3.5.6.min.js"></script>
+<script type="text/javascript" src="libs/c3.min.js"></script>
+
+<script type="text/javascript">
+	
+var chart = c3.generate({
+    data: {
+        columns: [
+            ['data1', 30, 200, 100, 400, 150, 250],
+            ['data2', 50, 180, 10, 40, 15, 25],
+            // ['data3', 50, 160, 10, 40, 115, 25],
+            // ['data4', 50, 120, 10, 40, 150, 25],
+            // ['data5', 50, 220, 10, 40, 85, 25]
+        ]
+    }
+});
+
+// setTimeout(function () {
+//     chart.load({
+//         columns: [
+//             ['data1', 230, 190, 300, 500, 300, 400]
+//         ]
+//     });
+// }, 1000);
+
+</script>
+
+
+<script type="text/javascript">
+
+// 具体算法描述如下：
+
+// <1>.比较相邻的元素。如果第一个比第二个大，就交换它们两个；
+// <2>.对每一对相邻元素作同样的工作，从开始第一对到结尾的最后一对，这样在最后的元素应该会是最大的数；
+// <3>.针对所有的元素重复以上的步骤，除了最后一个；
+// <4>.重复步骤1~3，直到排序完成。
+
+/**
+ * 冒泡简单算法
+ */
+function bubbleSort1(arr) {
+	console.time('冒泡排序耗时');
+    var len = arr.length;
+    for (var i = 0; i < len; i++) {
+        for (var j = 0; j < len - 1 - i; j++) {
+            if (arr[j] > arr[j+1]) {        //相邻元素两两对比
+                var temp = arr[j+1];        //元素交换
+                arr[j+1] = arr[j];
+                arr[j] = temp;
+            }
+        }
+    }
+	console.timeEnd('冒泡排序耗时');
+    return arr;
+}
+var arr1=[3,44,38,5,47,15,36,26,27,2,46,4,19,50,48];
+console.log(bubbleSort1(arr1));//[2, 3, 4, 5, 15, 19, 26, 27, 36, 38, 44, 46, 47, 48, 50]
+
+/**
+ * 改进冒泡排序： 设置一标志性变量pos,用于记录每趟排序中最后一次进行交换的位置。由于pos位置之后的记录均已交换到位,故在进行下一趟排序时只要扫描到pos位置即可。
+ */
+function bubbleSort2(arr) {
+    console.log('设置一标志性变量pos');
+    var start = window.performance.now();
+    console.time('改进后冒泡排序耗时');
+    var i = arr.length-1;  //初始时,最后位置保持不变
+    while ( i> 0) {
+        var pos= 0; //每趟开始时,无记录交换
+        for (var j= 0; j< i; j++)
+            if (arr[j]> arr[j+1]) {
+                pos= j; //记录交换的位置
+                var tmp = arr[j]; arr[j]=arr[j+1];arr[j+1]=tmp;
+            }
+        i= pos; //为下一趟排序作准备
+     }
+     console.timeEnd('改进后冒泡排序耗时');
+     var end = window.performance.now();
+     var duration = end - start;
+     console.log(duration)
+     return arr;
+}
+var arr2=[3,44,38,5,47,15,36,26,27,2,46,4,19,50,48];
+console.log(bubbleSort2(arr2));//[2, 3, 4, 5, 15, 19, 26, 27, 36, 38, 44, 46, 47, 48, 50]
+
+/**
+ * 传统冒泡排序中每一趟排序操作只能找到一个最大值或最小值,我们考虑利用在每趟排序中进行正向和反向两遍冒泡的方法一次可以得到两个最终值(最大者和最小者) , 从而使排序趟数几乎减少了一半。
+ */
+function bubbleSort3(arr) {
+    console.log('进行正向和反向两遍冒泡的方法');
+    var low = 0;
+    var high= arr.length-1; //设置变量的初始值
+    var tmp,j;
+    console.time('2.改进后冒泡排序耗时');
+    while (low < high) {
+        for (j= low; j< high; ++j) //正向冒泡,找到最大者
+            if (arr[j]> arr[j+1]) {
+                tmp = arr[j]; arr[j]=arr[j+1];arr[j+1]=tmp;
+            }
+        --high;                 //修改high值, 前移一位
+        for (j=high; j>low; --j) //反向冒泡,找到最小者
+            if (arr[j]<arr[j-1]) {
+                tmp = arr[j]; arr[j]=arr[j-1];arr[j-1]=tmp;
+            }
+        ++low;                  //修改low值,后移一位
+    }
+    console.timeEnd('2.改进后冒泡排序耗时');
+    return arr3;
+}
+var arr3=[3,44,38,5,47,15,36,26,27,2,46,4,19,50,48];
+console.log(bubbleSort3(arr3));//[2, 3, 4, 5, 15, 19, 26, 27, 36, 38, 44, 46, 47, 48, 50]
+
+/**
+ * 结合pos位置和正反排序
+ */
+function bubbleSort4(arr) {
+    console.log('结合pos位置和正反排序');
+    var low = 0;
+    var high= arr.length-1; //设置变量的初始值
+    var tmp,j;
+    console.time('3.改进后冒泡排序耗时');
+    while (low < high) {
+    	var high_pos = 0; //每趟开始时,无记录交换
+        for (j= low; j< high; ++j){ //正向冒泡,找到最大者
+            if (arr[j]> arr[j+1]) {
+            	high_pos = j;
+                tmp=arr[j]; arr[j]=arr[j+1];arr[j+1]=tmp;
+            }
+        }
+        high = high_pos;  //修改high值, 为下一趟排序作准备
+    	var low_pos = 0; //每趟开始时,无记录交换
+        for (j=high; j>low; --j){ //反向冒泡,找到最小者
+            if (arr[j]<arr[j-1]) {
+            	low_pos = j - 1;
+                tmp=arr[j]; arr[j]=arr[j-1];arr[j-1]=tmp;
+            }
+        }
+        low = low_pos; //修改low值, 为下一趟排序作准备
+    }
+    console.timeEnd('3.改进后冒泡排序耗时');
+    return arr;
+}
+var arr4=[3,44,38,5,47,15,36,26,27,2,46,4,19,50,48];
+console.log(bubbleSort4(arr4));//[2, 3, 4, 5, 15, 19, 26, 27, 36, 38, 44, 46, 47, 48, 50]
+
+
+
+
+
+var putTimeArr = ['data2'];
+var originalArr=[3,44,38,5,47,15,36,26,27,2,46,4,19,50,48];
+
+function goodbubbleSort(arr) {
+    var start = window.performance.now();
+    var len = arr.length;
+    for (var i = 0; i < len; i++) {
+        for (var j = 0; j < len - 1 - i; j++) {
+            if (arr[j] > arr[j+1]) {        //相邻元素两两对比
+                var temp = arr[j+1];        //元素交换
+                arr[j+1] = arr[j];
+                arr[j] = temp;
+            }
+        }
+    }
+    var end = window.performance.now();
+    var duration = end - start;
+    console.log(duration)
+    duration = (duration*1000).toFixed(0);
+    putTimeArr.push(duration)
+    return arr;
+}
+function goodbubbleSort1(arr) {
+    var start = window.performance.now();
+    var len = arr.length;
+    for (var i = 0; i < len; i++) {
+        for (var j = 0; j < len - 1 - i; j++) {
+            if (arr[j] > arr[j+1]) {        //相邻元素两两对比
+                var temp = arr[j+1];        //元素交换
+                arr[j+1] = arr[j];
+                arr[j] = temp;
+            }
+        }
+    }
+    var end = window.performance.now();
+    var duration = end - start;
+    console.log(duration)
+    duration = (duration*1000).toFixed(0);
+    putTimeArr.push(duration)
+    return arr;
+}
+
+function goodbubbleSort2(arr) {
+    console.time('goodbubbleSort2');
+     var start = Date.now();
+    var len = arr.length;
+    for (var i = 0; i < len; i++) {
+        for (var j = 0; j < len - 1 - i; j++) {
+            if (arr[j] > arr[j+1]) {        //相邻元素两两对比
+                var temp = arr[j+1];        //元素交换
+                arr[j+1] = arr[j];
+                arr[j] = temp;
+            }
+        }
+    }
+    console.timeEnd('goodbubbleSort2');
+    var duration = Date.now() - start;
+    // console.log(start)
+    console.log(duration)
+    duration = (duration*1000).toFixed(0);
+    putTimeArr.push(duration)
+    return arr;
+}
+
+// goodbubbleSort1($.extend(true, [], originalArr))
+// goodbubbleSort($.extend(true, [], originalArr))
+goodbubbleSort2($.extend(true, [], originalArr))
+goodbubbleSort2($.extend(true, [], originalArr))
+
+
+console.log(putTimeArr)
+
+
+
+chart.load({
+    columns: [putTimeArr]
+});
+
+
+
+</script>
+</body>
+</html>
