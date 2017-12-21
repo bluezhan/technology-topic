@@ -34,19 +34,18 @@
 声明合并
 扩展阅读
 
-
 #### 资料
 
-[js进化，迁徙到typescript](https://segmentfault.com/a/1190000009630935) 
-[TypeScript 资源集](https://segmentfault.com/a/1190000010130073)
-[阿里云前端周刊 - 第 15 期](https://segmentfault.com/a/1190000010115086)
-[为什么我们选择 TypeScript](https://redditblog.com/2017/06/30/why-we-chose-typescript/)
-[TypeScript 2.4 发布](https://blogs.msdn.microsoft.com/typescript/2017/06/27/announcing-typescript-2-4/)
-[从 JavaScript 到 TypeScript - 模块化和构建](https://segmentfault.com/a/1190000008996172)
-[TypeScript Plugin for Sublime Text](https://github.com/Microsoft/TypeScript-Sublime-Plugin)
-[Documentation](http://www.typescriptlang.org/docs/home.html)
-[TypeScript Handbook（中文版）](https://zhongsp.gitbooks.io/typescript-handbook/content/)
-[TypeScript 入门教程](https://ts.xcatliu.com/)
+[js进化，迁徙到typescript](https://segmentfault.com/a/1190000009630935)  
+[TypeScript 资源集](https://segmentfault.com/a/1190000010130073)  
+[阿里云前端周刊 - 第 15 期](https://segmentfault.com/a/1190000010115086)  
+[为什么我们选择 TypeScript](https://redditblog.com/2017/06/30/why-we-chose-typescript/)  
+[TypeScript 2.4 发布](https://blogs.msdn.microsoft.com/typescript/2017/06/27/announcing-typescript-2-4/)  
+[从 JavaScript 到 TypeScript - 模块化和构建](https://segmentfault.com/a/1190000008996172)  
+[TypeScript Plugin for Sublime Text](https://github.com/Microsoft/TypeScript-Sublime-Plugin)  
+[Documentation](http://www.typescriptlang.org/docs/home.html)  
+[TypeScript Handbook（中文版）](https://zhongsp.gitbooks.io/typescript-handbook/content/)  
+[TypeScript 入门教程](https://ts.xcatliu.com/)  
 
 
 

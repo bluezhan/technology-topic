@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>面试题</title>
+    <script type="text/javascript" src="libs/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://mockjs.com/dist/mock.js"></script>
+</head>
+
+<body>
+    <p>目录：</p>
+    <p>用 setTimeout 实现 setInterval，可不必关心返回值的类型。</p>
+    <script type="text/javascript">
+    function interval(func, w, t) {
+        var interv = function() {
+            if (typeof t === "undefined" || t-- > 0) {
+                setTimeout(interv, w);
+                try {
+                    func.call(null);
+                } catch (e) {
+                    t = 0;
+                    throw e.toString();
+                }
+            }
+        };
+        setTimeout(interv, w);
+    };
+    </script>
+    <p>观察者模式和“发布-订阅”模式有区别吗？</p>
+    <script type="text/javascript">
+    // var event = {
+    //     eventList: {},
+    //     listen: function(key, fn) {
+    //         if (!this.eventList[key]) {
+    //             this.eventList[key] = [];
+    //         }
+    //         this.eventList[key].push(fn);
+    //     },
+    //     remove: function(key, fn) {
+    //         var fns = this.eventList[key];
+    //         if (!fns) {
+    //             return false;
+    //         }
+    //         if (!fn) {
+    //             //如果没有回调，表示取消此key下的所有方法
+    //             fns && (fns.length);
+    //         } else {
+    //             for (var i = 0; i < fns.length; i++) {
+    //                 if (fns[i] == fn) {
+    //                     fns.splice(i, 1);
+    //                 }
+    //             }
+    //         }
+    //     },
+    //     trigger: function() {
+    //         var key = Array.prototype.shift.call(arguments);
+    //         var fns = this.eventList[key];
+    //         if (!fns || fns.length === 0) {
+    //             reutrn false;
+    //         }
+    //         for (var i = 0; i < fns.length; i++) {
+    //             fns[i].apply(this, arguments);
+    //         }
+    //     }
+    // };
+
+    // var installEvent = function(obj) {
+    //     for (var i in event) {
+    //         obj[i] = event[i];
+    //     }
+    // };
+
+    // var login = {};
+    // installEvent(login);
+
+    // //显示用户头像
+    // function showAvatar() {
+    //     console.log('显示头像数据');
+    // };
+
+    // //显示消息列表
+    // function showMessage() {
+    //     console.log('显示消息列表');
+    // };
+
+    // //订阅
+    // login.listen('loginSuccess', showAvatar);
+    // login.listen('loginSuccess', showMessage);
+
+    // //发布
+    // login.trigger('loginSuccess');
+
+    // //取消订阅
+    // login.remove('loginSuccess', showAvatar);
+
+    // //再次发布
+    // login.trigger('loginSuccess');
+    </script>
+    <script type="text/javascript">
+    Mock.mock('http://ajax.login.com', {
+        'name': '@name',
+        'age': 1
+    });
+    var event = {
+        eventList: {},
+        listen: function(key, fn) {
+            if (!this.eventList[key]) {
+                this.eventList[key] = [];
+            }
+            this.eventList[key].push(fn);
+        },
+        remove: function(key, fn) {
+            var fns = this.eventList[key];
+            if (!fns) {
+                return false;
+            }
+            if (!fn) {
+                fns && (fns.length = 0);
+            } else {
+                for (var i = 0; i < fns.length; i++) {
+                    if (fn == fns[i]) {
+                        fns.splice(i, 1);
+                    }
+                }
+            }
+        },
+        trigger: function() {
+            var key = Array.prototype.shift.call(arguments);
+            var fns = this.eventList[key];
+            if (!fns || fns.length === 0) {
+                return false;
+            }
+            for (var i = 0; i < fns.length; i++) {
+                fns[i].apply(this, arguments);
+            }
+        }
+    };
+
+    var installEvent = function(obj) {
+        for (var i in event) {
+            obj[i] = event[i];
+        }
+    };
+
+    var login = {};
+    installEvent(login);
+
+    var avatar = (function() {
+        login.listen('loginSucc', function(data) {
+            avatar.setAvatar(data);
+        });
+
+        return {
+            setAvatar: function(data) {
+                console.log('显示用户' + data['name'] + '的头像');
+            }
+        }
+    })();
+
+    var message = (function() {
+        login.listen('loginSucc', function(data) {
+            message.setMsg(data);
+        });
+
+        return {
+            setMsg: function(data) {
+                setTimeout(function() {
+                    console.log('显示用户' + data['name'] + '的年龄' + data['age']);
+                })
+            }
+        }
+    })();
+
+    //发布
+    $.ajax({
+        url: 'http://ajax.login.com',
+        dataType: 'json',
+        success: function(data) {
+            login.trigger('loginSucc', data);
+        }
+    })
+    </script>
+    <p>函数式编程</p>    
+    <p>柯里化（Currying）</p>
+    <p>HTTP协议</p>
+    https://github.com/sunyongjian/blog/issues/32
+
+
+</body>
+
+</html>
