@@ -1,0 +1,62 @@
+<script type="text/javascript">
+	
+    var data = {
+    	data: "node1", name: "i am node1;", 
+        children: [
+        	{data: "node2", name: "i am node2;", children: false},
+        	{data: "node3", name: "i am node3;", children: [
+        	 	{data: "node4", name: "i am node4;", children: false},
+        	 	{data: "node5", name: "i am node5;", children: false},
+        	 	{data: "node6", name: "i am node6;", children: false}
+        	]},
+        ]
+    };
+    var id = "node6";
+    var node = getNodeById(data, id);
+    console.log(node);
+
+    var _return = false;
+    function getNodeById(cell, name) {
+    	var _checkData = checkData(cell, name);
+    	if (_checkData) {
+           _return = _checkData;
+    	}
+    	else{
+           if (getChildren(cell)) {
+           	   for (var i = 0; i < cell.children.length; i++) {
+           	   	 var ss = getNodeById(cell.children[i], name);
+           	   	 console.log(cell.children[i], ss)
+           	   	 if (ss) {
+           	   	 	break;
+           	   	 }else{
+           	   	 	_return = false;
+           	   	 }
+           	   }
+           }
+           _return = false;
+    	}
+    	return _return
+    }
+
+    function getChildren(cell) {
+        return cell.children ? true : false;
+    }
+
+    function checkData(cell, name) {
+    	// console.log(cell, name);
+        return 	cell.data == name ? cell.name : false
+    }
+
+
+
+// position:absolute和float会隐式的改变display类型，不论之前是什么类型的元素（display:none除外），只要设置了position:absolute或float，都会让元素以display:inline-block的方式显示，可以设置长宽，默认宽度并不占满父元素，就算是显示的设置display:inline或display:block，仍然无效。
+// float在IE6下的双倍边距bug就是利用添加display:inline来解决的
+// 注意一点的是，position:relative并不能够隐式的改变display的类型
+
+
+
+
+
+
+
+</script>
