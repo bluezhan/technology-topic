@@ -28,7 +28,7 @@ Don't Panic! 不忘初心，不畏艰险，心有期许，彩虹似光。
 
 ## 《每个前端程序员都有一个梦》
 
->::: 网站地址：[点我就是了](http://bluezhan.me/technology-topic/#/)  
+>::: 网站地址：[点我就是了](http://bluezhan.com/technology-topic/#/)  
 
 * Web前端发展史  
 * Web标准  
